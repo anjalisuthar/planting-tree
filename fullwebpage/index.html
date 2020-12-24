@@ -1,0 +1,245 @@
+<html>
+    <head>
+        <title>DEMO WEBSIDE</title>
+        <link rel="stylesheet" href="../fullwebpage/CSS/style.css">
+        <!-- bootstreap ref link-->
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    </head>
+
+    <body>
+        <!-------------------------Navigation BAR---------------navbar code from bootstrap------------->
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="../fullwebpage/images/plant_tree.jpg"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto"><!--ml auto used for put all the section to right side-->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PRICE PLAN</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+
+        <!-------------slider------------- bootstreap----carousel code---------->
+        <div id="slider">
+          <div id="headerslider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#headerslider" data-slide-to="0" class="active"></li>
+              <li data-target="#headerslider" data-slide-to="1"></li>
+              <li data-target="#headerslider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../fullwebpage/images/parks.jpeg"class="d-block w-100">
+                <div class="carousel-caption">
+                  <h5>Planting</h5>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../fullwebpage/images/tree1.jpg" class="d-block w-100">
+                <div class="carousel-caption">
+                  <h5>Handleing</h5>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="../fullwebpage/images/tree3.jpg" class="d-block w-100 "> <!--instade w-100 use img-fluid contain original size-->
+                <div class="carousel-caption">
+                  <h5>Carring</h5>
+                </div>
+              </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+      
+        <!------------------------------- ABOUT SECTION ------USE bootstreap coding----------->
+<section id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6">          <!--col-md-6 bootstrap funtion-->
+        <h2>About Us</h2>
+        <div class="about-content">
+          Planting a tree is a lifelong investment. How well this investment grows depends on the type of tree selected and the planting location, the care provided during planting, and the follow-up care after planting.
+          rGetting your new tree off to a healthy start will help the tree mature to its full size and ensures it will provide environmental, economic, and social benefits throughout its lifetime.
+        </div>
+
+        <button type="button" class="btn btn-primary">READ MORE</button>    <!--btn-primary bootstrap funtion -->
+      </div>
+
+      <div class="col-md-6 skills-bar">
+        <p>hand planting</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+
+        <p>half-automatic planting</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%;">85%</div>
+        </div>
+
+        <p>automatic planting</p>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;">95%</div>
+        </div>
+
+      
+      </div>
+    </div>
+</div>
+</section>
+
+<!----------------------Services----------------------------->
+<section id="services">
+  <div class="container">
+    <h1> OUR SERVICES</h1>
+    <div class="row services">
+      <div class="col-md-3 text-center">
+
+        <!--icon set up-->
+        <div class="icon">
+          <i class="fa fa-university" aria-hidden="true"></i>          <!-- set icon of laptop -->
+           </div>
+              <h3>Donate</h3>
+             
+        </div>
+        
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+          </div>
+                <h3>Bar Chart</h3>
+              
+          </div>
+
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+                  <h3>Map</h3>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <div class="icon">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+               </div>
+                 <h3>Contact As</h3>
+                   
+              </div>
+          </div>
+    </div>
+</section>
+
+<!------------------OUR AIM------------------>
+<section id="team">
+  <div class="container">
+    <h1>
+      Our Aim
+    </h1>
+
+    <div class="row">
+        <div class="col-md-3 profile-pic text-center">
+          <div class="img-box">
+          <img src="images/plant_tree.jpg" class="img-responsive img-fluid">
+              <ul>
+                <a href="#"><li> <i class="fa fa-facebook"></i></li></a>
+                <a href="#"><li> <i class="fa fa-twitter"></i></li></a>
+                <a href="#"><li> <i class="fa fa-linkedin"></i></li></a>
+            </ul>
+        </div>
+          <h2> Plan and Planting </h2>
+        </div>
+
+           <div class="col-md-3 profile-pic text-center">
+            <div class="img-box">
+            <img src="images/food_groth.jpg" class="img-responsive  img-fluid">
+                <ul>
+                  <a href="#"><li> <i class="fa fa-facebook"></i></li></a>
+                  <a href="#"><li> <i class="fa fa-twitter"></i></li></a>
+                  <a href="#"><li> <i class="fa fa-linkedin"></i></li></a>
+              </ul>
+         </div>   <h2> Grwoth </h2>   </div>
+
+          <div class="col-md-3 profile-pic text-center">
+              <div class="img-box">
+              <img src="images/plant_handling.jpg" class="img-responsive   img-fluid">
+                  <ul>
+                    <a href="#"><li> <i class="fa fa-facebook"></i></li></a>
+                    <a href="#"><li> <i class="fa fa-twitter"></i></li></a>
+                    <a href="#"><li> <i class="fa fa-linkedin"></i></li></a>
+                </ul>
+         </div>  <h2>Handle and care </h2>
+    </div>
+   </div>
+  </div>
+  </section>
+
+    <!---------------------------Get in touch----------------------->
+    <section id="Contact">
+      <div class="container">
+      <h1>Get in touch</h1>
+      <!---colume---->
+     
+        <form class= "contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="your-name">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Phone-No">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email-id">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">SUBMIT</button>
+      </div>
+      </div>
+    </div>
+    </section>
+
+    </body>
+</html>
